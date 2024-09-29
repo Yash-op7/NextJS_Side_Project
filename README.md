@@ -8,3 +8,11 @@ Note taking app 1
 ## routes
 ### /notes/page.tsx
 - this route will fetch all the notes from pocketbase and also provide a form for a new note.
+
+# to run the project:
+> $ cd myapp
+> $ npm i
+> cd pocketbase_something
+> ./pocketbase serve
+> cd ..
+> npm run dev
