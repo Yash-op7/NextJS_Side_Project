@@ -44,7 +44,7 @@ export function Note({ note }: any) {
   return (
     <div>
       <div className="m-2 bg-yellow-100 text-black p-6 rounded-lg shadow-md transition-transform transform hover:scale-105">
-        <div className="flex flex-row">
+        <div className="flex flex-row justify-around">
           <Link href={`/notes/${id}`} className="text-3xl font-semibold mb-2">
             {title}
           </Link>
