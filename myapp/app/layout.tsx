@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <main>
-        <nav className="m-5 flex flex-row space-x-9">
+        <nav className="m-10 text-xl flex flex-row justify-around">
           <Link href='/'>
           Home</Link>
           <Link href='/notes'>
